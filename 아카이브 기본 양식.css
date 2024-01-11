@@ -1,0 +1,81 @@
+a {
+    color:blueviolet;
+    text-decoration:none;
+}
+li{
+    color:blueviolet;
+    list-style-type:circle;
+}
+#index{
+    color:black;
+    font-family:'Noto', sans-serif;                
+}
+h1{
+    text-align:center;
+    border-bottom:2px solid gray;
+    padding: 20px;
+    margin:0;
+    font-family:'Noto', sans-serif;
+    font-size:60px;
+}
+#left{
+    border-right:2px solid gray;
+    margin:0;
+    padding-top:40px;
+    padding-left:15px;
+    font-size:18px;
+    font-weight:600;
+}
+#left>li{
+    list-style:none;
+}
+.mainlist{
+    color:skyblue;
+    text-decoration-line:underline
+}
+#left_under>li{
+    padding-top:5px;
+}
+#grid{
+    display:grid;
+    grid-template-columns:160px 1fr;
+    grid-template-rows: 600px;
+}
+html, body{
+    margin:0;
+    width:100%;
+    height:100%;
+    font-family:'nanum', sans-serif;
+}
+#article{
+    padding:20px;
+    font-size:20px;
+    padding-left:30px;
+    font-weight:700;
+}
+.content{
+    line-height:1.7;
+    font-size:18px;
+}
+.active{
+    color:red;
+}
+@media(max-width:500px){
+    #grid{
+        display:block;
+    }
+    #left{
+        border-right:none;
+    }
+    h1{
+        border-bottom:none;
+    }
+}
+@font-face{
+    font-family: "Noto";
+    src:url(C:\Users\samsung\Desktop\웹사이트 만들어보기_html 버전\NotoSansKR-Regular.ttf) format("opentype") ;          
+}
+@font-face{
+    font-family: "nanum";
+    src:url(C:\Users\samsung\Desktop\웹사이트 만들어보기_html 버전\NanumGothic.ttf) format("opentype");
+}
